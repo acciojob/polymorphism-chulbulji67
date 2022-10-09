@@ -9,7 +9,7 @@ public static class Product{
   
   public static void main(String[] args){
 	  Main m = new Main();
-//     Product p = m.new Product();
+    Product p = m.new Product();
     System.out.println(p.product(2, 3));
     System.out.println(p.product(2, 3, 4));
     System.out.println(p.product(2.5, 4.0));
